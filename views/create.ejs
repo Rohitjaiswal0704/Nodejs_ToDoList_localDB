@@ -1,0 +1,14 @@
+<%- include("header")%>
+<%- include("nav")%>
+<form action="/add" method="post">
+  <div class="container mt-5 ">
+    <div class="mb-3 w-25">
+        <input type="text" class="form-control" name="title" placeholder="title" >
+    </div>
+    <div class="mb-3 w-25">
+      <input type="text" class="form-control" name="desc" placeholder="desc" >
+    </div>
+    <button type="submit" class="btn btn-primary ">Submit</button>
+  </div>
+  </form>
+  <%- include("footer")%>
